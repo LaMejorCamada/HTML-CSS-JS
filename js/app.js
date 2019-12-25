@@ -6,5 +6,5 @@ function AumentarContador(){
 }
 
 function loginCheck() {
-    alert("You are not registered.");
+    alert("It seems you are not regisetered yet, please complete the sign up to continue motherfucker");
 }
