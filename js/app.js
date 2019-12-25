@@ -1,8 +1,8 @@
-var contador = 2;
+var contador = 0;
 
 
 function AumentarContador(){
-    document.getElementById("valor").innerHTML = 15;
+    document.getElementById("valor").innerHTML ++;
 }
 
 function loginCheck() {
