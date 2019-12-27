@@ -9,20 +9,25 @@
     <link rel="stylesheet" href="css/color.css">
 </head>
 <body>
-    <header align = "center"> Our new proyect, by: La Mejor Camada</header>
-    <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="basic-addon1">@</span>
-        </div>
-        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
-      </div>
-      
-      <div class="input-group mb-3">
-        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
-        <div class="input-group-append">
-          <span class="input-group-text" id="basic-addon2">@example.com</span>
-        </div>
-      </div>
+    <header> 
+        Our new proyect, by: La Mejor Camada
+    </header>
+    
+
+
+
+    <section id = "login"> 
+        <a href="javascript:ActivarLogin()"> Log in </a> 
+    </section>
+
+
+    <div class= "ventalalogin" id="ventana">
+        
+        <div id = "cerrar"> <a href="javascript:CerrarLogin()"><img src="images/close.png"></div></a>
+        Welcome to login.
+
+    </div>
+
     <br>
     <article>
         <div><img src="images/descarga.png" class="rounded float-right" alt="HEELOO"></div>
@@ -49,10 +54,10 @@
         </ul>
         
     </article>
-    
-    <div align = "center" id= "valor">  0 </div>
-    <div align = "center" > <button type="button" class="btn btn-primary" id="boton" onclick='AumentarContador()'> Press here!</button></div>
-    
+    <div id = "aumentador">
+        <div align = "center" id= "valor">  0 </div>
+        <div align = "center" > <button type="button" class="btn btn-primary" id="boton" onclick='AumentarContador()'> Press here!</button></div>
+    </div>
     <div class="alert alert-primary" role="alert">
         A simple primary alert—check it out!
     </div>
