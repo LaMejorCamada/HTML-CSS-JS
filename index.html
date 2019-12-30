@@ -7,8 +7,9 @@
     <title>JAVASCRIPT</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/color.css">
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 </head>
-<body>
+<body background="images/fondo2.jpg">
     <header> 
         Our new proyect, by: La Mejor Camada
     </header>
@@ -17,7 +18,9 @@
 
 
     <section id = "login"> 
-        <a href="javascript:ActivarLogin()"> Log in </a> 
+
+        <button onclick='ActivarLogin()' type="button" class="btn btn-outline-primary"> Iniciar Sesion </button>
+        
     </section>
 
 
@@ -29,8 +32,8 @@
     </div>
 
     <br>
-    <article>
-        <div><img src="images/descarga.png" class="rounded float-right" alt="HEELOO"></div>
+    <article id = "Articulo">
+        <div><img src="images/unahur.png" class="rounded float-right" alt="HEELOO"></div>
         <header> Prueba de HTML, CSS </header> 
             <P> Se entiende algo mas que antes por eso voy a ir probando cosas </P>
             <p> Las materias que vienen van a ser mas divertidas segun lo que dicen </p>
@@ -58,10 +61,15 @@
         <div align = "center" id= "valor">  0 </div>
         <div align = "center" > <button type="button" class="btn btn-primary" id="boton" onclick='AumentarContador()'> Press here!</button></div>
     </div>
-    <div class="alert alert-primary" role="alert">
-        A simple primary alert—check it out!
+    <div align = "center" class="alert alert-dark" role="alert">
+        Todos los derechos estan reservados @salada.com
     </div>
 
+    <script>
+        $(document).ready(function(){
+            console.log("AHORAAAAA");
+        });
+    </script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
 </body>
