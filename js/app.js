@@ -1,7 +1,7 @@
 var contador = 0;
 
 function AumentarContador(){
-    document.getElementById("valor").innerHTML = contador++;
+    document.getElementById("valor").innerHTML ++;
 }
 
 function ActivarLogin(){
